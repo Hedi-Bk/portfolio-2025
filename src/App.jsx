@@ -123,6 +123,15 @@ const projectsData = [
     link: "https://github.com/Hedi-Bk/Mobile_App_ChatBot"
   },
   {
+    title: { en: "LLaMA-2-7B Fine-Tuning with QLoRA", fr: "Fine-Tuning LLaMA-2-7B avec QLoRA" },
+    desc: {
+      en: "Fine-tuning the LLaMA-2-7B model using QLoRA on 1000 examples, entirely on Google Colab.",
+      fr: "Fine-tuning du modèle LLaMA-2-7B avec QLoRA sur 1000 exemples, entièrement sur Google Colab."
+    },
+    tags: ["LLaMA-2-7B", "QLoRA", "Hugging Face", "Fine Tune LLMs", "Google Colab"],
+    link: "https://github.com/Hedi-Bk/Fine_Tune_Llama2_7b"
+  },
+  {
     title: { en: "Brain Tumor Segmentation", fr: "Segmentation de Tumeurs Cérébrales" },
     desc: { en: "Swin-UNETR implementation on MRI scans (88.6% accuracy).", fr: "Implémentation Swin-UNETR sur scans IRM (Précision 88.6%)." },
     tags: ["Medical Imaging", "Swin-UNETR", "MRI"],
@@ -139,7 +148,7 @@ const projectsData = [
     desc: { en: "Traffic counting using YOLOv8 + SORT tracking.", fr: "Comptage de trafic utilisant YOLOv8 + tracking SORT." },
     tags: ["Computer Vision", "YOLOv8", "SORT"],
     link: "https://github.com/Hedi-Bk/Objetc_Detection__YOLO"
-  }
+  },
 ];
 
 const spacesData = [
