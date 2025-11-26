@@ -13,7 +13,8 @@ import {
   Layers,
   Database,
   Globe,
-  ChevronRight
+  ChevronRight,
+  BookOpen
 } from 'lucide-react';
 
 const content = {
@@ -101,8 +102,8 @@ const skillsData = {
     { name: "LangChain", level: 60 },
     { name: "OpenCV", level: 65 },
     { name: "YOLOv8", level: 60 },
-    { name: "Mediapipe", level: 55 },
-    { name: "Scikit-learn", level: 60 }
+    { name: "Mediapipe", level: 20 },
+    { name: "Scikit-learn", level: 40 }
   ],
   dev: [
     { name: "Python", level: 75 },
@@ -153,15 +154,20 @@ const projectsData = [
 
 const spacesData = [
   {
-    title: { en: "Computer Vision Space", fr: "Espace Vision par Ordinateur" },
-    link: "https://github.com/Hedi-Bk/My_ComputerVision_Space",
-    icon: <Brain className="w-12 h-12 mb-4 text-blue-400" />
+    title: { en: "LLMs & NLP Space", fr: "Espace LLMs & NLP" },
+    link: "https://github.com/Hedi-Bk/LLMs_Space",
+    icon: <BookOpen className="w-12 h-12 mb-4 text-green-400" />
   },
   {
     title: { en: "Agentic AI Space", fr: "Espace IA Agentique" },
     link: "https://github.com/Hedi-Bk/My_ComputerVision_Space",
     icon: <Cpu className="w-12 h-12 mb-4 text-purple-400" />
-  }
+  },
+  {
+    title: { en: "Computer Vision Space", fr: "Espace Vision par Ordinateur" },
+    link: "https://github.com/Hedi-Bk/My_ComputerVision_Space",
+    icon: <Brain className="w-12 h-12 mb-4 text-blue-400" />
+  },
 ];
 
 const experienceData = [
